@@ -64,7 +64,7 @@ class LearningRobot(cellular.Agent): # Robot is the the secones agent togever wi
             return True
         # The ball stops after 10 turns.
         # The ball stopped before it arrived to the robot area
-        elif self.turn > 90: #Need to make sure the ball is arriving. and cancel it ----------?????
+        elif self.turn > 30: #Need to make sure the ball is arriving. and cancel it ----------?????
             self.no_score +=1
             return True
         else:
